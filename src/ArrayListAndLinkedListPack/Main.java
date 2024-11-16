@@ -2,7 +2,6 @@ package ArrayListAndLinkedListPack;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 record GroceryItem(String name, String type, int count) {
@@ -76,14 +75,16 @@ public class Main {
 
         stringArrayList.addAll(List.of("Luka", "Nukri", "Mariami", "Liza"));
         stringArrayList.addAll(Arrays.asList("Shorena", "Natia", "Rusiko","Beka","Khatia"));
-        System.out.println(stringArrayList);
-        stringArrayList.sort(Comparator.naturalOrder());
-        System.out.println(stringArrayList);
-        stringArrayList.sort(Comparator.reverseOrder());
+//        System.out.println(stringArrayList);
+//        stringArrayList.sort(Comparator.naturalOrder());
+//        System.out.println(stringArrayList);
+//        stringArrayList.sort(Comparator.reverseOrder());
+//        System.out.println(stringArrayList);
+//
+//        var stringToArray=stringArrayList.toArray(new String[0]);
+//        System.out.println(Arrays.toString(stringToArray));
         System.out.println(stringArrayList);
 
-        var stringToArray=stringArrayList.toArray(new String[0]);
-        System.out.println(Arrays.toString(stringToArray));
 
 
     }
