@@ -9,6 +9,25 @@ record GroceryItem(String name, String type, int count) {
         this(name, "Dairy", 1);
     }
 
+    @Override
+    public String name() {
+        return name;
+    }
+
+    @Override
+    public String type() {
+        return type;
+    }
+
+    @Override
+    public int count() {
+        return count;
+    }
+
+    @Override
+    public String toString() {
+        return "name"+name;
+    }
 }
 
 public class Main {
